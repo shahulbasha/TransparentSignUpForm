@@ -6,6 +6,7 @@ body {
   background-attachment: fixed;
   background-position: absolute;
   font-family: "Lato";
+  z-index: -5;
 }
 
 .wrapper {
@@ -19,6 +20,7 @@ body {
   position: absolute;
   color: white;
   transform: translate(-50%, -50%);
+  z-index: 5;
 }
 
 h2 {
@@ -83,4 +85,8 @@ i {
 
 .icons :nth-child(4) {
   color: #fff;
+}
+
+.overlay {
+  filter: blur(8px);
 }
